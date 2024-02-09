@@ -1,0 +1,544 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: #F2F5F9;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* start myportofolio */
+.div-porto {
+    width: 240px;
+    height: 104px;
+    margin-top: 18px;
+    margin-left: 100px;
+    padding: 44px, 0px, 44px, 0px;
+    justify-content: space-between;
+    line-height: 104px;
+    text-align: left;
+    font-family: 'Pacifico', cursive;
+}
+
+.div-inside-porto {
+    width: 135px;
+    height: 82px;
+    padding: 20px, 0px, 20px, 0px;
+    gap: 10px;
+}
+
+.a-porto {
+    color: #EC1B09;
+    width: 135px;
+    height: 42px;
+    font-weight: 400;
+    line-height: 42.14px
+}
+
+.a2-porto {
+    color: #FF9C1A;
+}
+/* end myportofolio */
+
+.div-main {
+    margin-left: 100px;
+    width: 1280px;
+    height: 882px;
+    /* background-color: blue; */
+    margin-right: 90px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+/* start aside left */
+.aside-left {
+    width: 400px;
+    height: 852px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 0px 0px #00000040;
+
+}
+
+.aside-img {
+    width: 200px;
+    height: 200px;
+    margin-top: 52px;
+    margin-right: 8px;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.div-h2-nama {
+    margin-top: 14px;
+    width: 235px;
+    height: 36px;
+    margin-left: 83px;
+}
+
+.h2-nama {
+    font-size: 28.42px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+
+}
+
+.div-p-bio {
+    margin-top: 4px;
+    margin-left: 124px;
+    width: 153px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 0px 5px 0px 5px;
+}
+
+.p-bio {
+    font-weight: 500;
+    font-size: 15px;
+    color: #0B090980;
+    line-height: 40px;
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: #F2F7FC;
+}
+
+.social-icon {
+    margin-left: 58px;
+    margin-top: 6px;
+    width: 296px;
+    height: 61.66px;
+    gap: 9.1px;
+    border-style: none;
+}
+
+.btn-fb {
+    width: 60.03px;
+    height: 61.19px;
+    padding: 20.67px, 24.81px, 20.67px, 24.81px;
+    border-radius: 8.27px;
+    gap: 8.27px;
+}
+.btn-id {
+    width: 69.03px;
+    height: 61.19px;
+    padding: 20.67px, 24.81px, 20.67px, 24.81px;
+    border-radius: 8.27px;
+    gap: 8.27px;
+}
+.btn-twt {
+    width: 69.03px;
+    height: 61.19px;
+    padding: 20.67px, 24.81px, 20.67px, 24.81px;
+    border-radius: 8.27px;
+    gap: 8.27px;
+}
+.btn-gth {
+    width: 69.03px;
+    height: 61.19px;
+    padding: 20.67px, 24.81px, 20.67px, 24.81px;
+    border-radius: 8.27px;
+    gap: 8.27px;
+}
+.icon-link i {
+    width: 10.42px;
+    height: 19.84px;
+    color: #1877F2;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.icon-link-30 i {
+    padding-left: 28,68px;
+    color: #1877F2;
+}
+
+.contact-card {
+    width: 300px;
+    height: 350px;
+    margin-top: 22.34px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #F2F5F9;
+    border-radius: 20px;
+}
+
+.btn-inside {
+    border-style: none;
+    margin-top: 22px;
+    margin-left: 28px;
+    width: 256px;
+    height: 63;
+    border-radius: 1px;
+    border-bottom: 1px dashed #E3E3E3;
+}
+
+.icon-hp {
+    width: 44px;
+    height: 44px;
+    padding: 10px;
+    border-radius: 8px;
+    gap: 5px;
+    justify-content: center;
+    background: #F2F5F9;
+}
+
+.icon-text-container {
+    display: flex;
+    align-items: center;
+    background: #F2F5F9;
+    height: 63px;
+    width: 256px;
+}
+
+.text-container {
+    width: 245px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    padding: 5px, 0px, 5px, 0px;
+}
+
+.label {
+    margin-bottom: 5px;
+    width: 43px;
+    height: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    color: #1A100380;
+
+}
+
+.number {
+    margin-top: 0;
+    width: 101px;
+    height: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.download-btn {
+    background-color: #FF9C1B;
+    color: #F2F7FC;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 185px;
+    height: 44px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    border-style: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+.download-btn i {
+    margin-right: 10px;
+}
+
+/* end aside left */
+
+/* start navbar */
+.navbar {
+    background-color: #F2F7FC;
+    float: right;
+    margin-top: 32px;
+    width: 503px;
+    height: 100px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px 0px #00000040;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin-left: 64px;
+    margin-right: 64px;
+    width: 375px;
+    height: 100px;
+    gap: 10px;
+}
+
+.navbar li {
+    text-align: center;
+    width: 320px;
+    height: 80px;
+    gap: 40px;
+    margin: 10px 24px 10px 20px;
+}
+
+.icon-link-nav {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FF9C1B;
+    padding: 16px 22px 20px 23px;
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    gap: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.icon-link-nav i {
+    width: 35px;
+    height: 44px;
+    padding: 1.5px 0.75px 3px 0.75px;
+}
+
+.icon-link-nav span {
+    display: block;
+    color: #FFFFFF;
+}
+
+.icon-link-nav.resume span,
+.icon-link-nav.contact span {
+    color: #000000;
+}
+
+.icon-link-nav i.home {
+    width: 24px;
+    height: 24px;
+    padding: 1.5px 0.75px 3px 0.75px;
+    color: #F2F7FC;
+}
+
+.icon-link-nav.resume,
+.icon-link-nav.contact {
+    background-color: #E1E8EF;
+}
+
+.icon-link-nav.resume i {
+    color: #1A100380;
+}
+
+.icon-link-nav.home {
+    background-color: #FF9C1B;
+}
+
+.icon-link-nav.contact i {
+    color: #1A100380;
+}
+
+/* Untuk mengubah warna latar belakang saat menghover */
+.icon-link-nav.home:hover,
+.icon-link-nav.resume:hover,
+.icon-link-nav.contact:hover {
+    background-color: #FF9C1B;
+}
+
+/* Untuk mengubah warna teks saat menghover */
+.icon-link-nav.home:hover span,
+.icon-link-nav.resume:hover span,
+.icon-link-nav.contact:hover span {
+    color: #FFFFFF;
+}
+
+/* Untuk mengubah warna ikon saat menghover */
+.icon-link-nav.home:hover i,
+.icon-link-nav.resume:hover i,
+.icon-link-nav.contact:hover i {
+    color: #FFFFFF;
+}
+
+/* Untuk mengubah warna latar belakang saat mengklik */
+.icon-link-nav.home:active,
+.icon-link-nav.resume:active,
+.icon-link-nav.contact:active {
+    background-color: #FF9C1B;
+}
+
+/* Untuk mengubah warna teks saat mengklik */
+.icon-link-nav.home:active span,
+.icon-link-nav.resume:active span,
+.icon-link-nav.contact:active span {
+    color: #FFFFFF;
+}
+
+/* Untuk mengubah warna ikon saat mengklik */
+.icon-link-nav.home:active i,
+.icon-link-nav.resume:active i,
+.icon-link-nav.contact:active i {
+    color: #FFFFFF;
+}
+
+/* end navbar */
+
+.div-konten {
+    float: right;
+    background-color: #FFFFFF;
+    width: 830px;
+    height: 720px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 0px 0px #00000040;
+}
+
+.div-aboutme {
+    width: 496px;
+    height: 60px;
+    gap: 32px;
+    background-color: #FFFFFF;
+    margin-left: 72px;
+    margin-top: 18px;
+    text-align: left;
+    position: relative;
+}
+
+.h1-aboutme {
+    width: 212px;
+    height: 60px;
+    padding: 10px;
+    gap: 10px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: #0B0909;
+}
+
+.div-resume-line {
+    width: 252px;
+    height: 2px;
+    background: linear-gradient(180deg, #FE9119 0%, #ED250A 100%);
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    border-radius: 2px;
+}
+
+.div-summary {
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 71px;
+    width: 694px;
+    height: 120px;
+    padding: 0px 10px 0px 10px;
+    text-align: left;
+}
+
+.p-summary {
+    width: 674px;
+    height: 120px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #000000;
+}
+
+.div-ido {
+    margin-top: 16px;
+    margin-left: 71px;
+    width: 191px;
+    height: 60px;
+    padding: 10px;
+    gap: 10px;
+    background-color: white;
+}
+
+.h2-ido {
+    width: 171px;
+    height: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 2.5%;
+    color: #000000;
+}
+
+.div-main-info {
+    width: 720px;
+    height: 362px;
+    margin-left: 73px;
+}
+
+.info-1,
+.info-4 {
+    background-color: #FFEBD1;
+}
+
+.info-2,
+.info-3 {
+    background-color: #F2F7FC;
+}
+
+.info-1,
+.info-3 {
+    float: left;
+    width: 333px;
+    height: 169px;
+    margin-right: 27px; /* Jarak antara info-1 dan info-2 */
+    margin-bottom: 24px; /* Jarak antara info-1 dan info-3 */
+    margin-top: 18px;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.info-2,
+.info-4 {
+    float: left;
+    width: 333px;
+    height: 169px;
+    margin-top: 19px;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.h3-info {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 20px;
+    width: 256px;
+    height: 20px;
+    margin-left: 25px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.p-info {
+    width: 283px;
+    height: 120px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 19px;
+    text-align: left;
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.025em;
+    color: #000000;
+}
